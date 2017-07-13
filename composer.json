@@ -1,0 +1,23 @@
+{
+    "name": "aizuyan/array2ini",
+    "description": "array convert to ini format",
+    "authors": [
+        {
+            "name": "燕睿涛",
+            "email": "ritoyan@163.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aizuyan\\Array2Ini\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aizuyan\\Array2Ini\\Test\\": "tests"
+        }
+    }
+}
